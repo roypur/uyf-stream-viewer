@@ -14,8 +14,7 @@ func main(){
 
     if len(os.Args) > 1 { 
         hexString = string(os.Args[1]);
-    };
-    
+    };  
     
     hexString = strings.TrimLeft(hexString, "uyf://");
     
