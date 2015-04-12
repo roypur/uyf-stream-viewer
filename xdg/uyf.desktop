@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/roypur/development/go/stream/run
+Name=uyf
+Categories=Application;Network;
+MimeType=x-scheme-handler/uyf;
