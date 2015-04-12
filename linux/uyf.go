@@ -23,7 +23,7 @@ func main(){
     
     url = string(binUrl);
 
-    if(url == "install"){
+    if(os.Args[1] == "install"){
         install();
         fmt.Println("install");
     }else{
