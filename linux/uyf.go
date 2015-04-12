@@ -36,7 +36,7 @@ func install(){
 
     var file string = "";
     
-    cmd = exec.Command("/usr/bin/xdg-mime","--mode","system","default","uyf.desktop","x-scheme-handler/uyf");
+    cmd := exec.Command("/usr/bin/xdg-mime","--mode","system","default","uyf.desktop","x-scheme-handler/uyf");
     cmd.Run();
     
     f, err := os.Create("/usr/share/applications/uyf.desktop");
