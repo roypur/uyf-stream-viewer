@@ -24,7 +24,7 @@ func main(){
 
     if(os.Args[1] == "install"){
         install();
-        fmt.Println("install");
+        fmt.Println("install complete!");
     }else{
         cmd := exec.Command("/usr/bin/ffplay",url);
         cmd.Run();
