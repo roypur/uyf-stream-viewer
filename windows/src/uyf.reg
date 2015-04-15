@@ -1,0 +1,12 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\uyf]
+@="URL:uyf Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\uyf\shell]
+
+[HKEY_CLASSES_ROOT\uyf\shell\open]
+
+[HKEY_CLASSES_ROOT\uyf\shell\open\command]
+@="\"C:\\apps\\uyf\\uyf.exe\"\"%1\"" 
