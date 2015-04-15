@@ -5,7 +5,10 @@
 - curl
 
 
-## Install linux:
+## Linux install:
 
     curl http://9f.no/uyf/install.sh | sudo bash
 
+## Windows install
+
+[Get installer](https://github.com/roypur/uyf-stream-viewer/releases)
